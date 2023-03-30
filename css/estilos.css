@@ -1,0 +1,413 @@
+
+.relleno{
+
+    background-color: #f2c119;
+}
+
+.producto {
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 1rem;
+}
+.producto .btn { background-color: #0afcff; color:black; }
+
+.p-4{
+    background:#f2c119;
+   
+}
+
+.p-4 .ventaja img{
+    max-width: 100px;
+}
+
+.aa-prom-content{
+
+    color:crimson;
+}
+/* tipo footer comentario */
+.creditospie:after{
+    content: "";
+}
+
+/* fin */
+#page_productos{
+    background-color: gray;
+}
+
+.btn-primary{
+    background-color:dodgerblue;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.promopintar{
+
+    background-color:#1c1c1b;
+}
+
+
+
+@media (max-width:728px) {
+    .producto {
+        font-size: 0.5rem;
+    }
+}
+
+
+
+
+
+
+.project {
+    background: url(../images/product_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0 90px 0;
+}
+
+.project .titlepage {
+    text-align: left;
+}
+
+.project .titlepage h2 {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: #f2c119 solid 5px;
+}
+
+.project .titlepage p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #fff;
+}
+.product_main {display:flex; flex-wrap: wrap; justify-content: center;}
+.project .project_box {
+    text-align: center;
+max-width: 17.3%;
+margin: 0 15px 20px 15px;
+}
+
+.dark_white_bg {
+    background: #f2f2f2;
+    height: 257px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .project_box h3 {
+    color: #1c1c1b;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 22px 0px 0px 0px;
+    text-align: left;
+}
+
+.project .read_more {
+    margin-top: 50px !important;
+    margin: 0 auto;
+    display: block;
+    text-transform: none;
+    color: #fff;
+    background: #183661;
+    padding: 10px 0;
+}
+
+.project .read_more:hover {
+    background-color: #f2c119;
+}
+
+
+/** end project section **/
+
+
+/** fashion section **/
+
+.fashion img {
+    width: 100%;
+}
+
+
+/** end fashion section **/
+
+.project {
+    background: url(../images/product_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 90px 0 90px 0;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 0px;
+    width: 100%;
+    max-width: 170px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.read_more:hover {
+    background: #03cafc;
+    color: #fff !important;
+    transition: ease-in all 0.5s;
+}
+
+
+
+
+
+
+/*==================
+  PROMO SECTION
+====================*/
+
+#aa-promo {
+    float: left;
+    display: inline;
+    width: 100%;
+  }
+  #aa-promo .aa-promo-area {
+    display: inline;
+    float: left;
+    padding: 30px 0;
+    width: 100%;
+  }
+  #aa-promo .aa-promo-area .aa-promo-left {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  #aa-promo .aa-promo-area .aa-promo-left .aa-prom-content {
+    top: 40% !important;
+  }
+  #aa-promo .aa-promo-area .aa-promo-middle {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: #ddd;
+  }
+  #aa-promo .aa-promo-area .aa-promo-right {
+    display: inline;
+    float: left;
+    width: 100%;
+    height: 400px;
+  }
+  #aa-promo .aa-promo-area .aa-promo-right .aa-single-promo-right {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 100%;
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner:hover img {
+    height: 120%;
+    width: 120%;
+    margin-left: -10%;
+    margin-top: -10%;
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner:hover:before {
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner .aa-prom-content {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 99;
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner .aa-prom-content span {
+    background-color: #FFF;
+    padding: 5px 10px;  
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner .aa-prom-content h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #aa-promo .aa-promo-area .aa-promo-banner .aa-prom-content h4 a {
+    color: #fff !important;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  
+
+  /*==================
+ Seccion foter
+====================*/
+
+#aa-footer {
+    background-color: rgb(15, 46, 38);
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #aa-footer .aa-footer-top {
+    display: inline;
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+    min-height: 100px;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget {
+    display: block;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget h3 {
+    color: #fff;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a {
+    color: rgb(250, 248, 248);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:hover, #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:focus {
+    color: #fff;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p {
+    margin-bottom: 5px;
+    color: #888;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p span {
+    margin-right: 5px;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-social a {
+    border: 1px solid #888;
+    color: #888;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 8px;
+    padding: 2px 0;
+    text-align: center;
+    width: 35px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-social a:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+  #aa-footer .aa-footer-bottom {
+    border-top: 1px solid #333;
+    display: inline;
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area > p {
+    color: #888;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area > p a {
+    color: #888;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment {
+    float: right;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment span {
+    color: #888;
+    margin-left: 8px;
+  }
+  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment span:hover {
+    color: #fff;
+  }
+  
